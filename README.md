@@ -1,50 +1,54 @@
-# React + TypeScript + Vite
+#  Calculadora de Propinas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado con React que permite calcular rápidamente el total a pagar incluyendo la propina. Ideal para practicar conceptos básicos como el manejo de estados (`useState`) y componentes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Tecnologías utilizadas
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML + CSS
+- Vite
+- Netlify (para el despliegue)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+##  Funcionalidades
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Ingreso del monto de la cuenta
+- Selección del porcentaje de propina
+- Cálculo automático del total a pagar
+- Diseño simple, claro y responsive
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+##  Enlace al proyecto
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+  [Ver online en Netlify](https://react-propinas.netlify.app)
+
+  [Código fuente en GitHub](https://github.com/luchinileo/Calculadora-Propinas.git)
+
+---
+
+##  Objetivo
+
+Este proyecto fue creado como práctica personal para reforzar el uso de React y preparar material para mi portfolio profesional.
+
+---
+
+##  Vista previa
+
+> Podés probarlo directamente desde tu celular o navegador. ¡Funciona perfecto!
+
+---
+
+##  Contacto
+
+Si querés contactarme:
+
+- Email: leoluchini2022@gmail.com
+- LinkedIn: [linkedin.com/in/leonardo-luchini-13b127262](https://www.linkedin.com/in/leonardo-luchini-13b127262/)
+
+---
+
